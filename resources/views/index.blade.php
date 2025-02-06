@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ $_SERVER['SERVER_NAME'] }}</h1>
+
 </body>
 </html>

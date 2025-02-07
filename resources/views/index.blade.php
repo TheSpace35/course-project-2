@@ -11,10 +11,11 @@
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     
         <!-- js -->
-        {{-- <script defer src="js/DataBase.js"></script>
-        <script defer src="js/auth.js"></script>
-        <script defer src="js/main.js"></script>
-        <script defer src="js/validation.js"></script> --}}
+        <script defer src="{{asset('js/DataBase.js')}}"></script>
+        <script defer src="{{asset('js/auth.js')}}"></script>
+        <script defer src="{{asset('js/main.js')}}"></script>
+        <script defer src="{{asset('js/validation.js')}}"></script>
+
    
       
 </head>

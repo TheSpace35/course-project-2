@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Welcome, your IP is {{$_SERVER['REMOTE_ADDR']}}</h2>
+    <h2>Welcome, your IP is {{$_SERVER['REMOTE_HOST']}}</h2>
 </body>
 </html>

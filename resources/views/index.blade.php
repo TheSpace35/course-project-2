@@ -26,7 +26,7 @@
 <!-- Окно авторизации -->
     <div class="login-popup popup">
         <h2>Вход</h2>
-        <form method="post" class="login-form">
+        <form method="post" action="{{route('loginPost')}}" class="login-form">
             <label for="login" class="login-form__label">Логин:</label>
             <input type="text" name="login" class="login-form__input" placeholder="Введите здесь пароль" required>
 
@@ -45,7 +45,7 @@
 <!-- Окно заявки на обратную связь -->
     <div class="application-popup popup">
         <h2>Заказать звонок</h2>
-        <form method="post" class="application-form">
+        <form method="post" action="{{route('applicationPost')}}" class="application-form">
 
             <div class="application-form_mainPart">
 

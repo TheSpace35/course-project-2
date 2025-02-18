@@ -10,6 +10,10 @@ Route::get('/login', function () {
     return redirect('/');
 })->name('login');
 
+Route::post('/login', function () {
+    return view('client');
+    
+})->name('loginPost');
 
 
 

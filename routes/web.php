@@ -7,7 +7,7 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/login', function () {
-    return view('login');
+    return redirect('/');
 })->name('login');
 
 

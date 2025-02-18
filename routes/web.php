@@ -15,6 +15,10 @@ Route::post('/login', function () {
     
 })->name('loginPost');
 
+Route::post('/application', function () {
+    
+})->name('applicationPost');
+
 
 
 Route::middleware(['auth', 'verified'])->group(function () {
